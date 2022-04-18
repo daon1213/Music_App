@@ -5,6 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/playerViewGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/playListViewGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <View
         android:id="@+id/topBackgroundView"
         android:layout_width="0dp"
